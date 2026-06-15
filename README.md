@@ -4,6 +4,11 @@ A modern Content Management System (CMS) built with **Next.js**, **React**, **Ty
 
 This project was developed as a one-week learning and portfolio project to demonstrate full-stack development skills, including authentication, state management, API development, and dashboard UI implementation.
 
+In order to login, Type..
+
+/dashboard
+/login
+
 ---
 
 ## About Me

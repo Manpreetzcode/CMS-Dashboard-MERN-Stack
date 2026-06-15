@@ -1,0 +1,162 @@
+.action-link {
+    color: var(--primarycolor);
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.action-link:hover {
+    color: var(--secondarycolor);
+    text-decoration: underline;
+}
+
+.delete-link {
+    color: #b32d2e;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.delete-link:hover {
+    color: #dc2626;
+    text-decoration: underline;
+}
+
+.row-actions {
+    visibility: hidden;
+}
+
+tr:hover .row-actions {
+    visibility: visible;
+}
+
+.post-title-link {
+    color: var(--primarycolor);
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.post-title-link:hover {
+    color: var(--secondarycolor);
+}
+
+.author-link {
+    color: #606060;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.author-link:hover {
+    text-decoration: underline;
+}
+
+.cat-link {
+    color: #606060;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.cat-link:hover {
+    text-decoration: underline;
+}
+
+.tab-link {
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+}
+
+.tab-link:hover {
+    text-decoration: underline;
+}
+
+.tab-active {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--primarycolor);
+}
+
+.wp-btn {
+    background: #f6f7f7;
+    border: 1px solid var(--secondarycolor);
+    border-radius: 3px;
+    color: var(--secondarycolor);
+    font-size: 13px;
+    padding: 0 10px;
+    height: 30px;
+    cursor: pointer;
+    line-height: 28px;
+}
+
+.wp-btn:hover {
+    background: #f0f0f1;
+    border-color: #0a4b78;
+    color: #0a4b78;
+}
+
+.wp-btn-primary {
+    background: var(--primarycolor);
+    border: 1px solid var(--primarycolor);
+    border-radius: 3px;
+    color: #fff;
+    font-size: 13px;
+    padding: 0 12px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.wp-btn-primary:hover {
+    background: var(--secondarycolor);
+    border-color: var(--secondarycolor);
+}
+
+select.wp-select {
+    background: #fff;
+    border: 1px solid #8c8f94;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 0 24px 0 8px;
+    height: 30px;
+    color: #2c3338;
+    appearance: auto;
+}
+
+input.wp-search {
+    border: 1px solid #8c8f94;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 0 8px;
+    height: 30px;
+    width: 200px;
+    color: #2c3338;
+    background: #fff;
+}
+
+input.wp-search:focus {
+    border-color: var(--primarycolor);
+    outline: none;
+    box-shadow: 0 0 0 1px var(--primarycolor);
+}
+
+.wp-checkbox {
+    accent-color: var(--primarycolor);
+    width: 14px;
+    height: 14px;
+}
+
+th.sortable {
+    cursor: pointer;
+    user-select: none;
+}
+
+th.sortable:hover {
+    color: var(--secondarycolor);
+}
+
+tr.row-hover {
+    background: #f6f7f7;
+}

@@ -6,8 +6,8 @@ This project was developed as a one-week learning and portfolio project to demon
 
 In order to login, Type..
 
-/dashboard
-/login
+* /dashboard
+* /login
 
 ---
 

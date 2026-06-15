@@ -9,6 +9,10 @@ In order to login, Type..
 * /dashboard
 * /login
 
+Note:- 
+
+In order to add a post you need to create One category first
+
 ---
 
 ## About Me

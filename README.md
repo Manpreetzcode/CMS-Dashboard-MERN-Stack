@@ -11,7 +11,7 @@ In order to login, Type..
 
 Note:- 
 
-In order to add a post you need to create One category first
+In order to add a post you need to create one category first.
 
 ---
 
